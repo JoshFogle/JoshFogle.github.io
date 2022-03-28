@@ -22,21 +22,19 @@
 <style>
 
 .accordion {
-  max-width: 500px;
-  border: 1px solid #000;
-  border-bottom: none;
-}
-
-.accordion:last-child {
-  border-bottom: 1px solid #000;
+  border: 2px solid #DCE6F0;
+  border-radius: 10px;
+  margin: 5px 0;
 }
 
 .accordion-header {
   display: flex;
   padding: 16px;
   cursor: pointer;
-  background-color: #F2F2F2;
+  border-radius: 10px;
+  background-color: #F3F6FA;
 }
+
 
 .accordion-title {
   flex: 1;
@@ -48,28 +46,36 @@
 
 .accordion-content {
   padding: 16px;
+  border-radius: 10px;
 }
 
 .accordion-content {
   display: none;
 }
 
+.accordion-header:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
 </style>
 
 
 <section id="volunteer-work">
 
-<h2>Volunteer Work</h2>
+<h1>Volunteer Work</h1>
 
 <div class="accordion">
     <div class="accordion-header">
-      <div class="accordion-title">First Volunteer Opportunity - <strong>2014</strong></div>
-      <span class="accordion-icon">+</span>
+      <div class="accordion-title">Johnstown Soup Kitchen - <em>September, 2019</em></div>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br> <br> <strong>Duties included:</strong>
         <ul>
-          <li>First task I completed</li>
+          <li>Duty 1</li>
+          <li>Duty 2</li>
+          <li>Duty 3</li>
+          <li>Duty 4</li>
 
         </ul>
     </div>
@@ -77,18 +83,26 @@
 
 <div class="accordion">
     <div class="accordion-header">
-      <div class="accordion-title">Second Volunteer Opportunity</div>
-      <span class="accordion-icon">+</span>
+      <div class="accordion-title">St. Aloysious Catholic Church - <em>2016-2019<em></div>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br> <br> <strong>Duties included:</strong>
+        <ul>
+          <li>Duty 1</li>
+          <li>Duty 2</li>
+          <li>Duty 3</li>
+          <li>Duty 4</li>
+
+        </ul>
     </div>
 </div>
 
 <div class="accordion">
     <div class="accordion-header">
       <div class="accordion-title">Third Volunteer Opportunity</div>
-      <span class="accordion-icon">+</span>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -98,7 +112,7 @@
 <div class="accordion">
     <div class="accordion-header">
       <div class="accordion-title">Fourth Volunteer Opportunity</div>
-      <span class="accordion-icon">+</span>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -108,7 +122,7 @@
 <div class="accordion">
     <div class="accordion-header">
       <div class="accordion-title">Fifth Volunteer Opportunity</div>
-      <span class="accordion-icon">+</span>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -121,23 +135,79 @@
 
 <section id="education">
 
-<h2>Education</h2>
+<h1>Education</h1>
 
 <div class="accordion">
     <div class="accordion-header">
-      <div class="accordion-title">Bachelor's Degree - <strong>2023</strong></div>
-      <span class="accordion-icon">+</span>
+      <div class="accordion-title">Bachelor's Degree - <em>2023</em></div>
+      <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Classes</div>
+      <span class="accordion-icon">◀</span>
+    </div>
+    <div class="accordion-content">
+      <ul>
+        <li>Class 1</li>
+        <li>Class 2</li>
+        <li>Class 3</li>
+        <li>Class 4</li>
+        <li>Class 5</li>
+      </ul>
+
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Classwork</div>
+      <span class="accordion-icon">◀</span>
+    </div>
+    <div class="accordion-content">
+      <ul>
+        <li>Classwork 1</li>
+        <li>Classwork 2</li>
+        <li>Classwork 3</li>
+        <li>Classwork 4</li>
+      </ul>
+
+    </div>
+</div>
+
+</section>
+
+<section id="work-experience">
+
+<h1>Work Experience</h1>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Shop N' Save - <em>June, 2021 - September, 2022</em></div>
+      <span class="accordion-icon">◀</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br><br> <strong>Duties included:</strong>
         <ul>
-          <li></li>
+          <li>Duty 1</li>
+          <li>Duty 2</li>
+          <li>Duty 3</li>
+          <li>Duty 4</li>
+          <li>Duty 5</li>
 
         </ul>
     </div>
 </div>
 
 </section>
+
 
 <script>
 
@@ -148,7 +218,7 @@ const accordionIcons = document.getElementsByClassName('accordion-icon');
 for (let i = 0; i < accordionHeaders.length; i++) {
   accordionHeaders[i].addEventListener('click', () => {
     accordionContents[i].style.display = accordionContents[i].style.display == 'block' ? 'none' : 'block';
-    accordionIcons[i].innerHTML = accordionContents[i].style.display == 'block' ? '-' : '+';
+    accordionIcons[i].innerHTML = accordionContents[i].style.display == 'block' ? '▼' : '◀';
   });
 }
 
