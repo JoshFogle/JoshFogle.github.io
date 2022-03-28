@@ -1,123 +1,155 @@
----
-layout: default
----
+# Name
+# Headshot (Photo)
+# Job Title or Desired Title
+# Job or Desired Job Summary
+# Contact Fields (Email, Phone, Social Media)
+# Expected Graduation
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Education
+# Previous Job Experience
+# Skills
 
-[Link to another page](./another-page.html).
+# Featured Projects
 
-There should be whitespace between paragraphs.
+# Licenses and Certifications
+# Courses Taken
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Honors and Awards
+# Languages
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
+<style>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+.accordion {
+  max-width: 500px;
+  border: 1px solid #000;
+  border-bottom: none;
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+.accordion:last-child {
+  border-bottom: 1px solid #000;
+}
 
-#### Header 4
+.accordion-header {
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+  background-color: #F2F2F2;
+}
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+.accordion-title {
+  flex: 1;
+}
 
-##### Header 5
+.accordion-icon: {
+  width: 16px;
+}
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+.accordion-content {
+  padding: 16px;
+}
 
-###### Header 6
+.accordion-content {
+  display: none;
+}
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+</style>
 
 
-### Definition lists can be used with HTML syntax.
+<section id="volunteer-work">
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+<h2>Volunteer Work</h2>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">First Volunteer Opportunity - <strong>2014</strong></div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <ul>
+          <li>First task I completed</li>
 
-```
-The final element.
-```
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Second Volunteer Opportunity</div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Third Volunteer Opportunity</div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Fourth Volunteer Opportunity</div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Fifth Volunteer Opportunity</div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+</div>
+
+
+</section>
+
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="accordion">
+    <div class="accordion-header">
+      <div class="accordion-title">Bachelor's Degree - <strong>2023</strong></div>
+      <span class="accordion-icon">+</span>
+    </div>
+    <div class="accordion-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <ul>
+          <li></li>
+
+        </ul>
+    </div>
+</div>
+
+</section>
+
+<script>
+
+const accordionHeaders = document.getElementsByClassName('accordion-header');
+const accordionContents = document.getElementsByClassName('accordion-content');
+const accordionIcons = document.getElementsByClassName('accordion-icon');
+
+for (let i = 0; i < accordionHeaders.length; i++) {
+  accordionHeaders[i].addEventListener('click', () => {
+    accordionContents[i].style.display = accordionContents[i].style.display == 'block' ? 'none' : 'block';
+    accordionIcons[i].innerHTML = accordionContents[i].style.display == 'block' ? '-' : '+';
+  });
+}
+
+</script>
