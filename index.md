@@ -83,7 +83,7 @@
 
 <div class="accordion">
     <div class="accordion-header">
-      <div class="accordion-title">St. Aloysious Catholic Church - <em>2016-2019<em></div>
+      <div class="accordion-title">St. Aloysious Catholic Church - <em>2016-2019</em></div>
       <span class="accordion-icon">◀</span>
     </div>
     <div class="accordion-content">
