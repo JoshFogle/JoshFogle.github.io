@@ -1,62 +1,77 @@
-# Name
+<h2>About</h2>
+
 # Headshot (Photo)
-# Job Title or Desired Title
-# Job or Desired Job Summary
-# Contact Fields (Email, Phone, Social Media)
-# Expected Graduation
+
+<p>I am currently a full-time student at Mount Aloysius College. During the summer of 2021, I worked at Shop 'N Save as a Stocker. This job helped me develop some important skills including organization, time management, adaptability, and communication skills. These skills will be important in helping me succeed within the information technology field which is my ultimate goal after getting my bachelor's degree. My dream job in the field would be a Computer Systems Administrator. I chose this major since I've always enjoyed working with technology, understanding how it works, and ways to fix different issues.</p>
+
+LinkedIn Profile
+linkedin.com/in/josh-fogle-3947a2223
+
+Email
+joshua.fogle01@gmail.com
+
+
+
 
 # Education
+
+Mount Aloysius College
+Bachelor's degree Information Technology
+2019 - 2023
+
 # Previous Job Experience
+
+Retail Stock Clerk
+Shop N' Save · Part-time
+Jun 2021 - Sep 2021 · 4 months
+-Stocked and rotated the products on the shelves
+-Maintained the cleanliness of the store
+-Brought in shopping carts that were outside to the proper area in the lobby
+-Helped customers locate items
+-Take out Garbage
+
+# Volunteer Work
+
+
 # Skills
 
 # Featured Projects
 
 # Licenses and Certifications
+
 # Courses Taken
 
+Client/Server-based Operating Systems
+CSIT.228.01
+
+Current Microcomputer System Design
+CSIT.225.01
+
+Database Management Systems
+CSIT.206B.01
+
+Introduction to GNU/LINUX
+CSIT.229.01B
+
+Introduction to Games
+CSIT.281.WEB
+
+Introduction to Networking Systems
+CSIT.223 01
+
+Introduction to Web Site Development
+CSIT.242.WEB2
+
+Microcomputer Operating Environment
+CSIT.226.HYB
+
+Networking Basics
+CSIT.123.WEB
+
+
 # Honors and Awards
-# Languages
+Deans list at Mount Aloysius College 5 times (2019-2021)
 
-
-
-<style>
-
-.accordion {
-  border: 2px solid #DCE6F0;
-  border-radius: 10px;
-  margin: 5px 0;
-}
-
-.accordion-header {
-  display: flex;
-  padding: 16px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: #F3F6FA;
-}
-
-
-.accordion-title {
-  flex: 1;
-}
-
-.accordion-icon: {
-  width: 16px;
-}
-
-.accordion-content {
-  padding: 16px;
-  border-radius: 10px;
-}
-
-.accordion-content {
-  display: none;
-}
-
-.accordion-header:hover{
-  background-color: rgba(0, 0, 0, 0.1);
-}
-</style>
 
 
 <section id="volunteer-work">
