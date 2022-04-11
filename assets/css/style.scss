@@ -5,5 +5,57 @@
 
 body {
   background-color:#ffffff;
-  font-family: Arial, "Helvetica Neue", Helvetica, verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #A60C33;
+    background-image: linear-gradient(120deg, #A60C33, #5e0981);
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #8d0b4e;
+}
+
+
+
+.accordion {
+  border: 2px solid #DCE6F0;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.accordion-header {
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #F3F6FA;
+}
+
+
+.accordion-title {
+  flex: 1;
+}
+
+.accordion-icon: {
+  width: 16px;
+}
+
+.accordion-content {
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-header:hover{
+  background-color: rgba(0, 0, 0, 0.1);
 }
