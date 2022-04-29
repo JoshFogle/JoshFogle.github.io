@@ -12,21 +12,21 @@ joshua.fogle01@gmail.com
 
 <h2>portfolio</h2>
 
-<div class="portfolio">
+<div class="portfolio-card">
   <h3>JavaScript Application</h3>
   <p>Description</p>
   <a href="/FavoriteSportsTeams"> Show Favorite Sports Teams</a>
 
 </div>
 
-<div class="portfolio">
+<div class="portfolio-card">
   <h3>JavaScript Application</h3>
   <p>Description</p>
   <a href="/Counter"> Counter Tool</a>
 
 </div>
 
-<div class="portfolio">
+<div class="portfolio-card">
   <h3>JavaScript Applications</h3>
   <p>Description</p>
   <a href="/Seasons"> Change the Seasons</a>
