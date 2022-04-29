@@ -15,20 +15,20 @@ joshua.fogle01@gmail.com
 <div class="portfolio">
   <h3>JavaScript Application</h3>
   <p>Description</p>
-  <a =hrefs="/FavoriteSportsTeams"> Show Favorite Sports Teams</a>
+  <a href="/FavoriteSportsTeams"> Show Favorite Sports Teams</a>
 
 </div>
 
 <div class="portfolio">
   <h3>JavaScript Application</h3>
   <p>Description</p>
-  <a =hrefs="/Counter"> Counter Tool</a>
+  <a href="/Counter"> Counter Tool</a>
 
 </div>
 
 <div class="portfolio">
   <h3>JavaScript Applications</h3>
   <p>Description</p>
-  <a =hrefs="/Seasons"> Change the Seasons</a>
+  <a href="/Seasons"> Change the Seasons</a>
 
 </div>
