@@ -15,20 +15,20 @@ joshua.fogle01@gmail.com
 <div class="portfolio-card">
   <h3>Favorite Sports Teams JavaScript Application</h3>
   <p>Interactive webpage that changes the content based on the sport that's selected from the dropdown menu.</p>
-  <a href="/FavoriteSportsTeams"> Show Favorite Sports Teams</a>
+  <a href="/FavoriteSportsTeams" target="_blank"> Show Favorite Sports Teams</a>
 
 </div>
 
 <div class="portfolio-card">
   <h3>Counter JavaScript Application</h3>
   <p>Interactive counter tool that changes the number based on the button that is pressed.</p>
-  <a href="/Counter"> Counter Tool</a>
+  <a href="/Counter" target="_blank"> Counter Tool</a>
 
 </div>
 
 <div class="portfolio-card">
   <h3>Seasons JavaScript Applications</h3>
   <p>Interactive webpage that changes the content based on the season that's selected from the dropdown menu.</p>
-  <a href="/Seasons"> Change the Seasons</a>
+  <a href="/Seasons" target="_blank"> Change the Seasons</a>
 
 </div>
