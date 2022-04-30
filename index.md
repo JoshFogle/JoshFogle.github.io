@@ -30,7 +30,7 @@ joshua.fogle01@gmail.com
 </div>
 
 <div class="portfolio-card">
-  <h3>Seasons JavaScript Applications</h3>
+  <h3>Seasons JavaScript Application</h3>
   <p>Interactive webpage that changes the content based on the season that's selected from the dropdown menu.</p>
   <a href="/Seasons" target="_blank"> Change the Seasons</a>
 
