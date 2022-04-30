@@ -128,13 +128,19 @@ Select the sport to see my favorite team:
 
 <script>
 
+// Updates the displayed content based on the option selected from the dropdown menu.
 function updateSportsTeam(selectElem) {
+
+// Gets the index of the option selected from the dropdown menu.
   var i = selectElem.selectedIndex;
+// If the Index of the selected item is less than 0 then exit out of the function.
   if (i < 0) {
     return;
   }
+// Stores the name of the currently selected option
   var optionValue = selectElem.options[i].value
 
+// if the selected option is football then set the background to yellow and hide all of the content relating to the other sports so that only the football content is showing.
   if (optionValue === "Football") {
     document.body.style.backgroundColor = "#FFC20E"
     document.getElementById("None").style.display = "None"
@@ -142,6 +148,7 @@ function updateSportsTeam(selectElem) {
     document.getElementById("Baseball").style.display = "None"
     document.getElementById("Football").style.display = "Block"
     document.getElementById("Hockey").style.display = "None"
+// if the selected option is basketball then set the background to blue and hide all of the content relating to the other sports so that only the basketball content is showing.
   } else if (optionValue === "Basketball") {
     document.body.style.backgroundColor = "#789CE2"
     document.getElementById("None").style.display = "None"
@@ -149,6 +156,7 @@ function updateSportsTeam(selectElem) {
     document.getElementById("Baseball").style.display = "None"
     document.getElementById("Football").style.display = "None"
     document.getElementById("Hockey").style.display = "None"
+// if the selected option is baseball then set the background to yellow and hide all of the content relating to the other sports so that only the baseball content is showing.
   } else if (optionValue === "Baseball") {
     document.body.style.backgroundColor = "#FDB827"
     document.getElementById("None").style.display = "None"
@@ -156,6 +164,7 @@ function updateSportsTeam(selectElem) {
     document.getElementById("Baseball").style.display = "Block"
     document.getElementById("Football").style.display = "None"
     document.getElementById("Hockey").style.display = "None"
+// if the selected option is none then set the background to white and hide all of the content relating to any of the sports.
   } else if (optionValue === "None") {
     document.body.style.backgroundColor = "#FFFFFF"
     document.getElementById("None").style.display = "Block"
@@ -163,6 +172,7 @@ function updateSportsTeam(selectElem) {
     document.getElementById("Baseball").style.display = "None"
     document.getElementById("Football").style.display = "None"
     document.getElementById("Hockey").style.display = "None"
+// if the selected option is hockey then set the background to yellow and hide all of the content relating to the other sports so that only the hockey content is showing.
   } else if (optionValue === "Hockey") {
     document.body.style.backgroundColor = "#FCB514"
     document.getElementById("None").style.display = "None"
@@ -170,6 +180,7 @@ function updateSportsTeam(selectElem) {
     document.getElementById("Baseball").style.display = "None"
     document.getElementById("Football").style.display = "None"
     document.getElementById("Hockey").style.display = "Block"
+// If the selected option is anything else than tell the user to refresh the page.
   } else {
     document.write("Something went wrong. Please Refresh")
   }
