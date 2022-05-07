@@ -14,7 +14,7 @@ communication skills. These skills will be important in helping me succeed withi
 </p>
 
 <p style="color:#8d0b4e"><strong>Email:</strong>
-  <a href="mailto: joshua.fogle01@gmail.com"> Joshua.Fogle01@gmail.com</a>
+  <a href="mailto:joshua.fogle01@gmail.com"> Joshua.Fogle01@gmail.com</a>
 </p>
 
 <p style="display:inline;color:#8d0b4e"><strong> GitHub:</strong>
