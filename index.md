@@ -1,3 +1,6 @@
+
+<title>Josh Fogle | Portfolio</title>
+
 <div class="navbar">
   <a href="/">Home</a>
   <a href="/about">About</a>
